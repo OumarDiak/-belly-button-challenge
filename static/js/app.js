@@ -38,8 +38,7 @@ function buildCharts(sample) {
     console.log("Full samples data:", samples);
 
     // Filter the samples for the object with the desired sample number
-    let resultArray = samples.filter(sampleObj => sampleObj
-      \\\\\\\\\\\\\.id == sample);
+    let resultArray = samples.filter(sampleObj => sampleObj.id == sample);
     let result = resultArray[0];
     console.log(`Filtered sample data for sample ${sample}:`, result);
 
