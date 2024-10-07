@@ -4,6 +4,10 @@ This challenge, I learned how to creat a dashboard that displays data from a bel
 
 The init() function is called when the page loads. It fetches the sample names from the dataset and populates the dropdown menu, allowing users to select different sample IDs. Upon selecting a sample, the optionChanged() function is triggered, which updates both the metadata panel and the charts with the new sample data. The entire dashboard is rendered and updated dynamically as users interact with the dropdown, creating an interactive visualization experience that is powered by D3.js and Plotly.js for data manipulation and chart rendering.
 
+I work on this project with the assistance of the class cohort YARA EL-EMAM! She assisted me a lot in this project as I was having hard time working on it by myself. 
+
+
+
 
 
 
